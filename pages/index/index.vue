@@ -2,6 +2,8 @@
 	<view class="wrap">
 		<u-swiper :list="list" :effect3d="true"></u-swiper>
 		<uni-steps :options="[{title: '事件一'}, {title: '事件二'}, {title: '事件三'}, {title: '事件四'}]" :active="1"></uni-steps>
+		
+		<view>你好，哈哈</view>
 		</view>
 	
 </template>
